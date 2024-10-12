@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    color: red;
+    display: block;
+    margin-top: -400px;
+}
+img{
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 70%;
+    margin-top: 100px;
+}
+h3:empty{
+    color: white;
+}

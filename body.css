@@ -1,0 +1,261 @@
+body{
+    background-size: cover;
+    background-image: url(blue-mountain-range-1478283696L7W.jpg);
+    }
+.lllll{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 5px;
+    }
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 30px;
+    margin-top: -5px;
+    margin-top: 20px;
+    color: black;
+}
+.kkk{
+    margin-left: 150px;
+}
+.pop{
+    margin-top: 20px;
+}
+.parent{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    animation-name: example;
+    animation-duration: 4s;
+    border: 2px solid blue;
+}
+.phot{
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    border: 5px solid blue;
+    display: none;
+}
+.mmmmm{
+    width: 300px;
+    height: 420px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: 5px solid blue;
+    border-radius: 20px
+}
+h1{
+    color: blue;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.search{
+    width: 200px;
+    height: 50px;
+}
+.text{
+    text-transform:uppercase;
+    color: white;
+    display: none;
+}
+.span-text{
+    margin-left: 20px;
+    color: white;
+    display: none;
+}
+.photo-tech{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.span-text2{
+    display: none;
+}
+.phot-tech2{
+    display: none;
+}
+.phot-tech3{
+    display: none;
+}
+.button-tutorials{
+    background-color: green;
+    display: none;
+}
+@keyframes bord{
+    0%{
+        border-color: white;
+    }
+    20%{
+        border-color: red;
+    }
+    40%{
+        border-color: yellow;
+    }
+    60%{
+        border-color: black;
+    }
+    80%{
+        border-color: teal;
+    }
+    100%{
+        border-color: green;
+    }
+}
+@keyframes example {
+    from {width: 10px;}
+    to {width: 1000px;}
+  }
+  input{
+    margin-top: 35px;
+    border-radius: 50px;
+    margin-left: 100px;
+  }
+  @media (max-width: 500px){
+    body{
+        background-size: cover;
+        background-image: url(blue-mountain-range-1478283696L7W.jpg);
+        background-repeat: no-repeat;
+        height: 300vh;
+        }
+    nav{
+        width: 350px;
+        height: 40px;
+        background-color: teal;
+        border-radius: 20px;
+        display: flex;
+    }
+    .lllll{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        margin-top: 5px;
+        float: left;
+        margin-left: 7px;
+        }
+        nav ul li{
+            color: black;
+            float: left;
+            margin-top: -5px;
+        }
+        .fff{
+            display: none;
+        }
+        .search{
+            display: none;
+        }
+        
+        .parent{
+            width: 1000px;
+            height: 500px;
+            background-color: black;
+            margin: 0 auto;
+            margin-top: 30px;
+            display: flex;
+            animation-name: example;
+            animation-duration: 4s;
+            border: 2px solid blue;
+            display: none;
+        }
+        .phot{
+            width: 200px;
+            height: 280px;
+            border-radius: 10px;
+            border: 5px solid white;
+            display: block;
+            margin-top: 50px;
+            margin-left: 15px;
+            animation: 5s  bord linear infinite;
+        }
+        .text{
+            text-transform:uppercase;
+            color: white;
+            display: block;
+            margin-left: 20px;
+        }
+        .span-text{
+            margin-left: 20px;
+            color: white;
+            display: block;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        .photo-tech{
+            width: 250px;
+            height: 150px;
+            display: block;
+            margin-left: 20px;
+            margin-top: 30px;
+        }
+        .span-text2{
+            display: block;
+            color: white;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        .phot-tech2{
+            display: block;
+            width: 250px;
+            height: 170px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .phot-tech3{
+            display: block;
+            width: 200px;
+            height: 250px;
+            margin-left: 50px;
+            margin-top: 20px;
+            border: 5px solid red;
+        }
+        .button-tutorials{
+            display: block;
+            background-color: green;
+            width: 150px;
+            height: 70px;
+            border: none;
+            margin-left: 100px;
+            margin-top: 30px;
+            animation: 1s watch linear infinite;
+            font-size: 20px;
+            color: white;
+        }
+        @keyframes watch{
+            0%{
+                box-shadow: 0px;
+            }
+            20%{
+                box-shadow: 3px 3px 8px 8px red;
+            }
+            40%{
+                box-shadow: 3px 3px 8px 8px blue;
+            }
+            60%{
+                box-shadow: 3px 3px 8px 8px yellow;
+            }
+            80%{
+                box-shadow: 3px 3px 8px 8px purple;
+        }
+            100%{
+                box-shadow: 3px 3px 8px 8px white;
+            }
+
+        
+  }
+}

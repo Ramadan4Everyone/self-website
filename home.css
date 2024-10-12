@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+.text{
+    margin-top: 200px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, blue);
+    line-height: 0.80em;
+    animation: 2s animate linear infinite;
+}
+@keyframes animate{
+    0%,20%,30%,40%,50%,60%,70%,80%,90%{
+        color: blue;
+        text-shadow: none;
+    }
+    20%, 30%,40%,50%,60%,70%,80%,90%{
+        color: white;
+        text-shadow: 0 0 10px red,
+                     0 0 20px red,
+                     0 0 40px red,
+                     0 0 60px red,
+                     0 0 80px red,
+                     0 0 100px red
+    }
+}
+img{
+    width: 500px;
+    height: 300px;
+    float: right;
+    border: 5px solid blue;
+}
+button{
+    margin-top: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    animation: 10s anal linear infinite;
+}
+@keyframes anal{
+    0%{
+        margin-left: 0px;
+    }
+    90%{
+        margin-left: 500px;
+    }
+
+}
+
+

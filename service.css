@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+.res-phot{
+    width: 700px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+.span-built{
+    font-size: 30px;
+    margin-left: 350px;
+    margin-top: 50px;
+    color: white;
+}
+.photo-portal{
+    width: 650px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.span-portal{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+}
+.photo-signup{
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.span-sign{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+}
+
